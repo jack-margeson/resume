@@ -1,1 +1,1 @@
-resume2020
+ Jack Margeson's online, open-source resume, written with LaTeX. 
