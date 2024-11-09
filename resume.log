@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.6.5)  15 SEP 2024 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.1)  9 NOV 2024 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -39,12 +39,7 @@ No auxiliary output files.
 \resumewidth=\dimen142
 \@columnwidth=\dimen143
 \c@numberofcolumns=\count196
-) (/usr/share/texmf-dist/tex/latex/psnfss/helvet.sty
-Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
- (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
-)) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count197
 \mult@box=\box51
@@ -135,6 +130,9 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
  (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
 ) (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -241,6 +239,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip53
 ) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 38.
@@ -248,7 +248,7 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 38.
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 38.
+(Font)              scaled to size 9.79996pt on input line 38.
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
@@ -290,39 +290,46 @@ LaTeX Font Info:    ... okay on input line 38.
 \providecommand\hyper@newdestlabel[2]{}
 Package hyperref Info: Link coloring ON on input line 38.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 44.
+(Font)              scaled to size 11.75995pt on input line 44.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 44.
+(Font)              scaled to size 11.75995pt on input line 44.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 45.
+(Font)              scaled to size 8.81996pt on input line 45.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 45.
+(Font)              scaled to size 8.81996pt on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 61.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 68.
+(Font)              scaled to size 9.79996pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 69.
+(Font)              scaled to size 9.79996pt on input line 69.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 72.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 72.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 120.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 120.
-LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 120.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 138.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 138.
+(Font)              scaled to size 9.79996pt on input line 72.
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--141
+Overfull \hbox (0.5892pt too wide) in paragraph at lines 91--92
+[]\T1/phv/m/n/10 Built fea-tures for web-based prop-erty man-age-ment soft-ware in An-gu-lar that greatly
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 6.85997pt on input line 127.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 4.89998pt on input line 127.
+LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
+(Font)              scaled to size 4.89998pt on input line 127.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.85997pt on input line 137.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 145.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 9.79996pt on input line 145.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
@@ -335,15 +342,15 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8951 strings out of 476076
- 135566 string characters out of 5793776
- 1941187 words of memory out of 5000000
- 30984 multiletter control sequences out of 15000+600000
- 581879 words of font info for 54 fonts, out of 8000000 for 9000
+ 8953 strings out of 476076
+ 135604 string characters out of 5793775
+ 1942187 words of memory out of 5000000
+ 30985 multiletter control sequences out of 15000+600000
+ 584769 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,8n,79p,256b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on resume.pdf (1 page, 44005 bytes).
+Output written on resume.pdf (1 page, 44272 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
