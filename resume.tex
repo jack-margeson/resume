@@ -22,6 +22,7 @@
 \usepackage{multicol}
 \usepackage{xcolor}
 \usepackage{hyperref}
+\usepackage{enumitem}
 \usepackage[T1]{fontenc}
 \usepackage[scaled=0.98]{helvet}
 
@@ -31,7 +32,7 @@
 }
 
 \setlength{\textwidth}{5.2in} % Text width of the document
-\addtolength{\topmargin}{-.25in}
+\addtolength{\topmargin}{-.0in}
 \addtolength{\textheight}{.4in}
 
 \renewcommand\familydefault{\sfdefault}
@@ -41,25 +42,26 @@
 %	INFORMATION
 %----------------------------------------------------------------------------------------
 
-\moveleft.5\hoffset\centerline{\large\bf Jack Margeson}% Your name at the top
-\moveleft.5\hoffset\centerline{\small\bf Computer Science @ the University of Cincinnati} % Your name at the top
+\moveleft.5\hoffset\centerline{\LARGE\bf Jack Margeson} % Your name at the top
+\moveleft.5\hoffset\centerline{\small\bf \textit{Software engineer, developer, and problem solver at heart.}} % Your name at the top
  
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
 \vspace*{-1.5mm} 
 \begin{multicols}{2}
 \moveleft.5\hoffset\centerline{\href{mailto:margesji@mail.uc.edu}{margesji@mail.uc.edu}} % Your address
 \moveleft.5\hoffset\centerline{\href{https://www.linkedin.com/in/jack-margeson}{linkedin.com/in/jack-margeson}}
-\moveleft.5\hoffset\centerline{(513) 615-0468}
+\moveleft.5\hoffset\centerline{\href{https://marg.es/on}{https://marg.es/on}}
 
 \moveleft.5\hoffset\centerline{121 Calhoun St. Apt \#5} % Your address
 \moveleft.5\hoffset\centerline{Cincinnati, OH 45219}
+\moveleft.5\hoffset\centerline{(513) 615-0468}
 
 \end{multicols}
 
 %----------------------------------------------------------------------------------------
 
 \begin{resume}
-\vspace*{-7.5mm}
+\vspace*{-4.5mm}
  
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE 
@@ -68,39 +70,56 @@
 \section{EXPERIENCE}
 {\sl Software Engineer Co-op} \hfill {\color{black} Jan 2024–Aug 2024} \\
 Siemens Digital Industries Software, Milford, Ohio
-\begin{itemize} \itemsep -2pt % Reduce space between items
+\vspace{1mm}
+\begin{itemize}  % Reduce space between items
 \item Utilized LangChain to train large language models for AI assistant applications 
-\item Created custom functions in C to allow large language models to interact with CAD models by performing user actions in real-time
-\item Designed microservices in Node.js to improve search functionality through\\embedding-based analysis algorithms
+\item Created custom functions in C to allow large language models to interact with the NX software by performing real-time actions, enabling users to manipulate 3D models using natural language commands 
+\item Designed microservices in Node.js to improve search functionality through\\embedding-based analysis algorithms, achieving a 50\% reduction in query time 
 \end{itemize}
 
-\vspace*{-1.5mm}
+%\vspace*{-1.5mm}
 
 {\sl Software Engineer Co-op} \hfill {\color{black} May 2023–Aug 2023}  \\
 84.51$^{\circ}$, Cincinnati, Ohio 
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Played a key role in creating a new ad management web platform through proficient development in Angular, Python, and Go
-\item  Led a remote team in recommending changes and delivering a time-critical major feature for an upcoming product release
+\vspace{1mm}
+\begin{itemize}  % Reduce space between items
+\item Played a key role in expanding a new ad management web platform through proficient development in Angular, Python, and Go
+\item Engineered a new web-based billing portal utilized by companies such as Kroger, Kraft Heinz, and PepsiCo
+\item Led a remote team of six and delivered a time-critical major feature for an upcoming product release
 \end{itemize}
 
-\vspace*{-1.5mm}
+%\vspace*{-1.5mm}
 
 {\sl Software Developer Co-op} \hfill {\color{black} Jan 2022–Dec 2022}  \\
 London Computer Systems, Loveland, Ohio 
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Built features for web-based property management software in Angular that greatly impacted user experience
-\item Migrated functions from desktop application to web for customer ease-of-use
-\item Communicated designs with large, diverse team utilizing Agile Kanban \& Jira
+\vspace{1mm}
+\begin{itemize}  % Reduce space between items
+\item Built features for web-based property management software in Angular that greatly impacted user experience through the introduction of new functionality
+\item Migrated functions from desktop application to the web-based Rent Manager Express, streamlining customer efficiency and enabling new workflows
+\item Communicated designs with large, diverse team utilizing Agile (Jira, Kanban)
 \end{itemize}
 
-\vspace*{-1.5mm}
+%\vspace*{-1.5mm}
 
 {\sl Software Engineer} \hfill {\color{black} Jan 2021–Sept 2021}  \\
-Osmic Enterprises, Cincinnati, Ohio 
-\begin{itemize} \itemsep -2pt % Reduce space between items
+Osmic Enterprises, Cincinnati, Ohio
+\vspace{1mm}
+\begin{itemize} % Reduce space between items
 \item Developed desktop software for medical devices aimed to diagnose and monitor psychophysical olfactory dysfunction
+\item Refactored 90\% of the existing Visual Basic 6 codebase to VB.NET, improving compatibility and speed   
 \item Implemented customer requested features and test suites for clinical and collegiate olfactory research
 \end{itemize}
+
+%{\sl Student Worker, IT@UC} \hfill {\color{black} Oct 2020–Jan 2021}  \\
+%University of Cincinnati, Cincinnati, Ohio 
+
+{\sl Software Engineer Consultant} \hfill {\color{black} July 2020–Aug 2020}  \\
+GE Digital, Cincinnati, Ohio 
+
+{\sl Computational Statistician Intern} \hfill {\color{black} June 2019–Dec 2019}  \\
+Procter \& Gamble, Mason, Ohio 
+
+\pagebreak
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -132,17 +151,26 @@ Credential ID 70748133-5249
 %	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{SKILLS} 
- 
-C++ \& C, Python, Unix/Linux, x86 ASM, C\#, Docker, Kubernetes, AWS, Azure, Java, OpenGL, SQL, Postgres, Angular, React, TypeScript, NodeJS, CUDA, Go, Visual Basic (.NET, 6), BOINC, \LaTeX 
+\section{SKILLS}
 
+\begin{itemize}[leftmargin=0cm, label={}]
+    \item {\sl Languages:} 
+    C++, C, Python, x86 ASM, C\#, Java, Angular, React, TypeScript, NodeJS, Bash, Go, Visual Basic (.NET, 6), \LaTeX
+    \item {\sl Technologies:} 
+    Unix/Linux, Docker, Kubernetes, Microsoft Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP), OpenGL, CUDA, BOINC
+    \item {\sl Databases:} 
+    MySQL, SQL Server, PostgreSQL, MongoDB, SQLite 3
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
 %----------------------------------------------------------------------------------------
 %	EXTRA-CURRICULAR ACTIVITIES
 %----------------------------------------------------------------------------------------
 
 \section{EXTRA-CURRICULAR \\ ACTIVITIES} 
 
-Achieved {\it Eagle Scout}, Boy Scouts of America, Troop 21 Dan Beard Council \\
+Earned {\it Eagle Scout}, Boy Scouts of America, Troop 21 Dan Beard Council \\
 Elected {\it Secretary}, Hive13, Cincinnati's largest (250+ member) non-profit maker space \\
 Elected {\it Executive Director}, Mason Hack Club \\
 
