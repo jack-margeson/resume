@@ -1,0 +1,49 @@
+# LaTeX intermediate and output files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+# Intermediate documents
+*.dvi
+*.xdv
+
+# Generated PDFs
+*.pdf
+
+# Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# SyncTeX files
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+
+# Editor backup files
+*~
+*.swp
+*.bak
+*.backup
+*.tmp
+*.temp
+*.old
+
+# Other files and folders
+*.fdb_latexmk
+*.fls
+*.gz
+*.nav
+*.snm
+*.vrb
+*.pyg
